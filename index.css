@@ -41,7 +41,7 @@ main {
     display: flex;
     align-items: center;
     gap: 5px;
-    margin: 20px 0 20px auto;
+    margin: 20px 0 20px auto; 
 }
 
 select {
@@ -75,4 +75,14 @@ button, .input-text {
 
 .remove-btn {
     background: #ff7477;
+}
+
+@media (min-width: 600px) {
+    .input-text {
+        width: 400px;
+    }
+    
+    .add-btn {
+        width: 100px;
+    }
 }
