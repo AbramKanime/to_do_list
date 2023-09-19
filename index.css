@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Mooli', sans-serif;
+    padding: 20px;
+    background: #210124;
+    color: #d5d6b6;
+}
+
+.toDo-title {
+    text-align: center;
+    margin: 0 0 1.5em 0;
+    color: #299D65;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d5d6b6;
+    padding: 20px;
+    margin: 5px 0;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+select {
+    cursor: pointer;
+    padding: 5px;
+}
+
+select, .input-text {
+    background: #d5d6b6;
+}
+
+.input-text {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-family: 'Mooli', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button, .input-text {
+    padding: 0.625rem;
+}
+
+.add-btn {
+    background: #299D65;
+}
+
+.remove-btn {
+    background: #ff7477;
+}
