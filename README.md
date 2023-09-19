@@ -1,21 +1,17 @@
-# co48c43a392c5119364dc2493
+# To-Do List
 
-Quick start:
+This web app was built using Javascript, HTML, and CSS
 
 ```
 $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## About To-Do List
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The app is a utility tool that the users can use to plan their days and weeks. It gives the users a way to write down the tasks they want to achieve. The app saves the tasks to their local storage. They are also given the options to mark completed tasks, remove any task from the list, and the option to filter between completed and still active tasks.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+The app retains the status of each task between loads; and it is designed to be responsive to different screen sizes.
 
-Happy Coding!
+## Author
+### Abraham Onyeka Kanime
