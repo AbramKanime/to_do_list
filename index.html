@@ -14,24 +14,26 @@
 </head>
 
 <body>
-    <h1 class="toDo-title"><i class="fa-solid fa-check-to-slot"></i> To-Do List</h1>
-    <div>
-        <input type="text" id="taskInput" placeholder="New Task" class="input-text">
-        <button id="add-btn" class="add-btn"> Add </button>
-    </div>
-    <div class="filter-container justify-content-end align-items-center mb-4 pt-2 pb-3">
-        <div class="filter">
-            <p class="small mb-0 me-2 text-muted">Filter</p>
-            <select class="select" id="filter">
-                <option value="all">All</option>
-                <option value="completed">Completed</option>
-                <option value="active">Active</option>
-            </select>
+    <main>
+        <h1 class="toDo-title"><i class="fa-solid fa-check-to-slot"></i> To-Do List</h1>
+        <div>
+            <input type="text" id="taskInput" placeholder="New Task" class="input-text">
+            <button id="add-btn" class="add-btn"> Add </button>
         </div>
-    </div>
-    <div id="taskList">
-        <!-- Tasks will be displayed here -->
-    </div>
+        <div class="filter-container justify-content-end align-items-center mb-4 pt-2 pb-3">
+            <div class="filter">
+                <p class="small mb-0 me-2 text-muted">Filter</p>
+                <select class="select" id="filter">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="active">Active</option>
+                </select>
+            </div>
+        </div>
+        <div id="taskList">
+            <!-- Tasks will be displayed here -->
+        </div>
+    </main>
     <script src="index.js" type="module"></script>
 </body>
 </html>
