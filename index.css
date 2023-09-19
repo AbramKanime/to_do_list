@@ -8,11 +8,10 @@ body {
     padding: 20px;
     background: #210124;
     color: #d5d6b6;
-    max-width: 750px;
 }
 
 main {
-    width: 90%;
+    max-width: 750px;
     margin: 0 auto;
 }
 
