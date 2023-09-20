@@ -13,5 +13,7 @@ The app is a utility tool that the users can use to plan their days and weeks. I
 
 The app retains the status of each task between loads; and it is designed to be responsive to different screen sizes.
 
+#### Link to the deployed active site of the project: https://todo-list-5dd153.netlify.app/
+
 ## Author
 ### Abraham Onyeka Kanime
