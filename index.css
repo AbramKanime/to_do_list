@@ -11,7 +11,6 @@ body {
     background-color: #210124;
     color: #d5d6b6;
     background-size: inherit;
-    height: 100%;
 }
 
 main {
@@ -41,9 +40,9 @@ main {
     margin: 5px 0;
     gap: 10px;
     border-radius: 5px;
-    background-color: #E5EB3C;
+    background-color: #1A7B39;
     opacity: 0.8;
-    color: #1B1B16;
+    color: #ccc;
 }
 
 .filter-container {
@@ -86,8 +85,8 @@ button, .input-text {
 }
 
 .add-btn {
-    background: #4B4C35;
-    color: #E5EB3C;
+    background: #1A7B39;
+    color: #ccc;
 }
 
 .remove-btn {
