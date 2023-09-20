@@ -3,15 +3,27 @@ html, body {
     padding: 0;
 }
 
-body {
-    font-family: 'Mooli', sans-serif;
-    padding: 20px;
-    background-image: url("assets/images/flower2.jpg");
-    background-repeat: no-repeat;
+body { 
+    background: url(assets/images/flower2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: #210124;
     color: #d5d6b6;
-    background-size: 100%, 100%;
-}
+    padding: 20px;
+    font-family: 'Mooli', sans-serif;
+  }
+
+/* body { */
+    /* font-family: 'Mooli', sans-serif;
+    padding: 20px; */
+    /* background-image: url("assets/images/flower2.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-color: #210124;
+    color: #d5d6b6; */
+    /* background-size: 100%, 100%; */
+/* } */
 
 main {
     max-width: 750px;
