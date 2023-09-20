@@ -58,6 +58,12 @@ select, .input-text {
     border: 1px solid #ccc;
 }
 
+.no-task-placeholder {
+    text-align: center;
+    color: #ccc;
+    opacity: 0.4;
+}
+
 button {
     font-family: 'Mooli', sans-serif;
     cursor: pointer;
@@ -75,6 +81,23 @@ button, .input-text {
 
 .remove-btn {
     background: #ff7477;
+}
+
+.delete-all-btn {
+    margin-top: 20px;
+    background: #ff7477;
+    border: 2px solid red;
+}
+
+button:hover {
+    padding: 11px;
+    font-weight: bold;
+    /* font-size: 1.125rem; */
+}
+
+.delete-all-btn-container {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 600px) {

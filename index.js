@@ -1,6 +1,6 @@
 import {nanoid} from "nanoid"
 
-const taskList = document.getElementById('taskList')
+const taskList = document.getElementById('task-list')
 const filterEl = document.getElementById("filter")
 const localStorageTodoList = JSON.parse(localStorage.getItem("todoListArray")) || []
 displayTasks()
@@ -61,12 +61,31 @@ filterEl.addEventListener("change", () => {
     }).join('')
 })
 
+document.getElementById('delete-all-btn').addEventListener('click', () => {
+    localStorageTodoList.length = 0
+    localStorage.setItem("todoListArray", JSON.stringify(localStorageTodoList))
+    displayTasks()
+})
+
+
 function displayTasks() {
-    taskList.innerHTML = ''
-    localStorageTodoList.map(item => {
-        const {task, id, isChecked} = item
-        return createTask(task, id, isChecked)
-    }).join('')
+    if (localStorageTodoList.length > 0) {
+        taskList.innerHTML = ''
+        localStorageTodoList.map(item => {
+            const {task, id, isChecked} = item
+            return createTask(task, id, isChecked)
+        }).join('')
+        
+        if (localStorageTodoList.length > 1) {
+            document.getElementById('delete-all-btn').style.display = "block"
+        } 
+    } else {
+        taskList.innerHTML = `
+            <h3 class="no-task-placeholder">No Task available</h3>
+        `
+        document.getElementById('delete-all-btn').style.display = "none"
+    }
+    
 }
 
 function createTaskObject(taskText) {
