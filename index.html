@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List App</title>
@@ -21,7 +21,7 @@
             <input type="text" id="taskInput" placeholder="New Task" class="input-text">
             <button id="add-btn" class="add-btn"> Add </button>
         </div>
-        <div class="filter-container justify-content-end align-items-center mb-4 pt-2 pb-3">
+        <div class="filter-container">
             <div class="filter">
                 <p class="small mb-0 me-2 text-muted">Filter</p>
                 <select class="select" id="filter">
@@ -31,11 +31,13 @@
                 </select>
             </div>
         </div>
-        <div id="task-list">
-            <!-- Tasks will be displayed here -->
-        </div>
-        <div class="delete-all-btn-container">
-            <button id="delete-all-btn" class="delete-all-btn"> !Remove all </button>
+        <div class="placeholder-container" id="placeholder-container">
+            <div id="task-list">
+                <!-- Tasks will be displayed here -->
+            </div>
+            <div class="delete-all-btn-container">
+                <button id="delete-all-btn" class="delete-all-btn"> !Remove all </button>
+            </div>
         </div>
     </main>
     <script src="index.js" type="module"></script>
