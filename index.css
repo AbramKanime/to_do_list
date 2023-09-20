@@ -85,6 +85,7 @@ select {
     gap: 30px;
 }
 
+/* Buttons */
 button {
     font-family: 'Mooli', sans-serif;
     cursor: pointer;
@@ -104,11 +105,12 @@ button, .input-text {
 .remove-btn {
     background: #ff7477;
     font-size: 0.75rem;
+    color: #d5d6b6;
 }
 
 .delete-all-btn {
     background: #ff7477;
-    border: 2px solid red;
+    color: #d5d6b6;
 }
 
 button:hover, button:focus {
@@ -121,6 +123,7 @@ button:hover, button:focus {
     justify-content: center;
 }
 
+/* Media query */
 @media (min-width: 600px) {
     .input-text {
         width: 400px;
