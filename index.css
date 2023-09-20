@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-color: #210124;
     color: #d5d6b6;
-    background-size: cover;
+    background-size: 100%;
 }
 
 main {
