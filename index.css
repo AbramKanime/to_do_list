@@ -7,7 +7,7 @@ body {
     font-family: 'Mooli', sans-serif;
     padding: 20px;
     background-image: url("assets/images/flower2.jpg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-color: #210124;
     color: #d5d6b6;
     background-size: cover;
@@ -17,6 +17,7 @@ body {
 main {
     max-width: 750px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .toDo-title {
