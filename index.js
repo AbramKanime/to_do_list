@@ -94,7 +94,7 @@ function createTaskObject(taskText) {
         task: taskText,
         isChecked: false
     }
-    localStorageTodoList.push(TaskObj)
+    localStorageTodoList.unshift(TaskObj)
     localStorage.setItem("todoListArray", JSON.stringify(localStorageTodoList))
 }
 
