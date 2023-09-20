@@ -6,8 +6,8 @@ html, body {
 body {
     font-family: 'Mooli', sans-serif;
     padding: 20px;
-    background-image: url("assets/images/flower.jpg");
-    background-repeat: no-repeat;
+    background-image: url("assets/images/flower2.jpg");
+    /* background-repeat: no-repeat; */
     background-color: #210124;
     color: #d5d6b6;
     background-size: cover;
